@@ -137,3 +137,31 @@ body.dark h3 {
         max-width: 90%;
     }
 }
+
+.image-container-left {
+    float: left;              /* Bild links neben Text */
+    margin-left: -2cm;        /* Bild geht 1 cm über den Textbereich hinaus */
+    margin-right: 1cm;        /* Abstand zwischen Bild und Text */
+    width: 230px;             /* feste Breite */
+}
+
+.image-container-left img {
+    width: 100%;              /* Bild passt sich Containerbreite an */
+    height: auto;             /* Seitenverhältnis bleibt erhalten */
+    border-radius: 8px;       /* optional: runde Ecken */
+    box-shadow: 0 3px 6px rgba(0,0,0,0.2); /* optional */
+}
+
+.image-container-right {
+    float: right;             /* Bild rechts neben Text */
+    margin-right: -2cm;       /* Bild ragt 1 cm über den rechten Rand hinaus */
+    margin-left: 1cm;         /* Abstand zwischen Text und Bild */
+    width: 230px;             /* feste Breite */
+}
+
+.image-container-right img {
+    width: 100%;              /* Bild füllt Container */
+    height: auto;             /* Seitenverhältnis bleibt erhalten */
+    border-radius: 8px;       /* optional: abgerundete Ecken */
+    box-shadow: 0 3px 6px rgba(0,0,0,0.2); /* optional */
+}
